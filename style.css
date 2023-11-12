@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans Medium';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+main{
+    width: 100%;
+    background-color: #000000;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff7e;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1100;
+}
+
+/* .circle{
+    background-image: url('./assets/Cynthia1.png');
+    background-size: cover;
+} */
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    padding: 2.5vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    color: #fff;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .boundin{
+    transform: translateY(100%);
+}
+.bounding .boundin1{
+    transform: translateY(-100%);
+}
+
+
+
+.hero .heading h1{
+font-size: 10vw;
+text-transform: uppercase;
+font-weight: 900;
+line-height:1;
+opacity: 0.5;
+margin-left: 3vw;
+}
+.blocktext{
+    width: fit-content;
+    display: flex;
+    align-items: end;
+    flex-direction:column;
+    text-transform: uppercase;
+    margin-left: 190px;
+}
+
+.headingTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 3vw;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1vw 3vw;
+}
+
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.iconset{
+    display: flex;
+    gap: 10px;
+}
+footer .first{
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    padding-top:10vw ;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #000000;
+    padding: 10vw 12vw 0 3vw;
+}
+.second h4{
+    font-weight: 100;
+}
+.second h1{
+    opacity: .5;
+}
+
+.elem{
+    position: relative;
+    padding: 2vw 0;
+    width: 100%;
+    border-top: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem h1{
+    font-size: 7.5vw;
+    font-weight: 400;
+}
+.elem3{
+    border-bottom: 1px solid white;
+}
+
+.elem img{
+    opacity: 0;
+    /* display: none; */
+    height: 150%;
+    position: absolute;
+    z-index: 10;
+}
+/* .elem:hover img{
+    opacity: 1;
+} */
+
+
+.third{
+    font-family: 'General Sans Regular';
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    
+}
+.thirdOne{
+    height: 55%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7vw;
+}
+
+.thirdOne img{
+    width: 26%;
+    margin-top: -40px;
+}
+.thirdOne .para{
+    width: 45%;
+}
+.para p{
+    line-height: 2vw;
+}
+.para h5{
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.para button{
+    margin-top: 1vw;
+    padding: 0.5vw 1.5vw;
+    border-radius: 50px;
+    font-size: 1.1vw;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.subscribe{
+    background-color: #000000;
+    color: #fff;
+    height: 10vw;
+    line-height: 2vw;
+    padding: 0 3vw;
+}
+.subscribe h5{
+    text-transform: uppercase;
+    font-weight: 100;
+    opacity: 0.6;
+}
+.subscribe h3{
+    text-transform: uppercase;
+    font-size: 1.2vw;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3vw 3vw;
+    font-size: 1.3vw;
+    background-color: #000000;
+    color: #fff;
+}
+
+.footerLeft{
+    gap:2vw;
+    display: flex;
+    align-content: center;
+}
+.footerRight{
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+}
